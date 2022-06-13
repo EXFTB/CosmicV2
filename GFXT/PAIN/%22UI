@@ -336,7 +336,7 @@ local Chatlog do
 
 	CLFrame.Parent = CommandsSU
 	CLFrame.Name = "ChatLogs"
-	CLFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CLFrame.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	CLFrame.BackgroundTransparency = 0.350
 	CLFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	CLFrame.BorderSizePixel = 2
@@ -346,7 +346,7 @@ local Chatlog do
 
 	Top.Name = "Top"
 	Top.Parent = CLFrame
-	Top.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Top.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	Top.BackgroundTransparency = 0.650
 	Top.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Top.BorderSizePixel = 2
@@ -363,7 +363,7 @@ local Chatlog do
 	Min.Font = Enum.Font.SourceSans
 	Min.LineHeight = 1.150
 	Min.Text = "-"
-	Min.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Min.TextColor3 = Color3.fromRGB(73, 107, 193)
 	Min.TextSize = 39.000
 
 	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(38, 38, 38)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 28, 28))}
@@ -372,7 +372,7 @@ local Chatlog do
 
 	Commands.Name = "Commands"
 	Commands.Parent = Top
-	Commands.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Commands.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	Commands.BackgroundTransparency = 1.000
 	Commands.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Commands.BorderSizePixel = 0
@@ -380,7 +380,7 @@ local Chatlog do
 	Commands.Size = UDim2.new(0, 95, 0, 24)
 	Commands.Font = Enum.Font.SourceSansBold
 	Commands.Text = "Chat Logs"
-	Commands.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Commands.TextColor3 = Color3.fromRGB(73, 107, 193)
 	Commands.TextSize = 20.000
 	Commands.TextStrokeTransparency = 0.500
 	Commands.TextXAlignment = Enum.TextXAlignment.Left
@@ -392,7 +392,7 @@ local Chatlog do
 	Logs.Name = "Logs"
 	Logs.Parent = CLFrame
 	Logs.Active = true
-	Logs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Logs.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	Logs.BackgroundTransparency = 1.000
 	Logs.BorderSizePixel = 0
 	Logs.Position = UDim2.new(0, 0, 0.160509259, 0)
@@ -426,13 +426,13 @@ local Chatlog do
 		local Text = Instance.new("TextLabel")
 		local size = sv.TextService:GetTextSize(user..": "..msg,15,"SourceSansLight",Vector2.new(202,1/0)).Y
 		Text.Name = "Text"
-		Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Text.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		Text.BackgroundTransparency = 1.000
 		Text.Position = UDim2.new(0, 0, 0, 0)
 		Text.Size = UDim2.new(0,202,0,size)
 		Text.Font = Enum.Font.SourceSansBold
 		Text.Text = user..": "..msg
-		Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Text.TextColor3 = Color3.fromRGB(73, 107, 193)
 		Text.TextSize = 15.000
 		Text.TextStrokeTransparency = 0.500
 		Text.TextXAlignment = Enum.TextXAlignment.Left
@@ -457,7 +457,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 
 	Commands.Name = "Commands"
 	Commands.Parent = CommandsSU
-	Commands.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Commands.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	Commands.BackgroundTransparency = 0.350
 	Commands.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Commands.BorderSizePixel = 2
@@ -471,7 +471,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 
 	Top.Name = "Top"
 	Top.Parent = Commands
-	Top.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Top.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	Top.BackgroundTransparency = 0.650
 	Top.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Top.BorderSizePixel = 2
@@ -487,7 +487,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 	Min.Font = Enum.Font.SourceSans
 	Min.LineHeight = 1.150
 	Min.Text = "-"
-	Min.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Min.TextColor3 = Color3.fromRGB(73, 107, 193)
 	Min.TextSize = 39.000
 
 	UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(38, 38, 38)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 28, 28))}
@@ -496,7 +496,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 
 	Commands_2.Name = "Commands"
 	Commands_2.Parent = Top
-	Commands_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Commands_2.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	Commands_2.BackgroundTransparency = 1.000
 	Commands_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Commands_2.BorderSizePixel = 0
@@ -504,14 +504,14 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 	Commands_2.Size = UDim2.new(0, 95, 0, 24)
 	Commands_2.Font = Enum.Font.SourceSansBold
 	Commands_2.Text = "Commands"
-	Commands_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Commands_2.TextColor3 = Color3.fromRGB(73, 107, 193)
 	Commands_2.TextSize = 20.000
 	Commands_2.TextStrokeTransparency = 0.500
 	Commands_2.TextXAlignment = Enum.TextXAlignment.Left
 
 	CommandList.Name = "CommandList"
 	CommandList.Parent = Commands
-	CommandList.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CommandList.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	CommandList.BackgroundTransparency = 1.000
 	CommandList.Position = UDim2.new(0, 0, 0.122950882, 0)
 	CommandList.Size = UDim2.new(0, 160, 0, 213)
@@ -537,7 +537,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 
 	CommandBar.Name = "CommandBar"
 	CommandBar.Parent = CommandsSU
-	CommandBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CommandBar.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	CommandBar.BackgroundTransparency = 0.350
 	CommandBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	CommandBar.BorderSizePixel = 2
@@ -550,7 +550,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 
 	Text.Name = "Text"
 	Text.Parent = CommandBar
-	Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Text.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	Text.BackgroundTransparency = 1.000
 	Text.BorderColor3 = Color3.fromRGB(27, 42, 53)
 	Text.Position = UDim2.new(0.0421073921, 0, 0.482758582, 0)
@@ -558,26 +558,26 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 	Text.Font = Enum.Font.SourceSansSemibold
 	Text.PlaceholderText = "Command Bar"
 	Text.Text = ""
-	Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Text.TextColor3 = Color3.fromRGB(73, 107, 193)
 	Text.TextSize = 18.000
 	Text.TextXAlignment = Enum.TextXAlignment.Left
 
 	BackText.Name = "BackText"
 	BackText.Parent = CommandBar
-	BackText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	BackText.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	BackText.BackgroundTransparency = 1.000
 	BackText.BorderColor3 = Color3.fromRGB(27, 42, 53)
 	BackText.Position = UDim2.new(0.0419998653, 0, 0.483142972, 0)
 	BackText.Size = UDim2.new(0, 148, 0, 30)
 	BackText.Font = Enum.Font.SourceSansSemibold
 	BackText.Text = ""
-	BackText.TextColor3 = Color3.fromRGB(255, 255, 255)
+	BackText.TextColor3 = Color3.fromRGB(73, 107, 193)
 	BackText.TextSize = 18.000
 	BackText.TextXAlignment = Enum.TextXAlignment.Left
 
 	Top.Name = "Top"
 	Top.Parent = CommandBar
-	Top.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Top.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	Top.BackgroundTransparency = 0.650
 	Top.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Top.BorderSizePixel = 2
@@ -589,7 +589,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 
 	CommandsOpen.Name = "Commands"
 	CommandsOpen.Parent = Top
-	CommandsOpen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CommandsOpen.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	CommandsOpen.BackgroundTransparency = 1.000
 	CommandsOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	CommandsOpen.BorderSizePixel = 0
@@ -597,14 +597,14 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 	CommandsOpen.Size = UDim2.new(0, 88, 0, 24)
 	CommandsOpen.Font = Enum.Font.SourceSansBold
 	CommandsOpen.Text = "Commands"
-	CommandsOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
+	CommandsOpen.TextColor3 = Color3.fromRGB(73, 107, 193)
 	CommandsOpen.TextSize = 19.000
 	CommandsOpen.TextStrokeTransparency = 0.500
 	CommandsOpen.TextXAlignment = Enum.TextXAlignment.Left
 
 	PrefixL.Name = "Prefix"
 	PrefixL.Parent = Top
-	PrefixL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	PrefixL.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	PrefixL.BackgroundTransparency = 1.000
 	PrefixL.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	PrefixL.BorderSizePixel = 0
@@ -612,7 +612,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 	PrefixL.Size = UDim2.new(0, 51, 0, 24)
 	PrefixL.Font = Enum.Font.SourceSansBold
 	PrefixL.Text = "Prefix: "..togs.Admin.Prefix
-	PrefixL.TextColor3 = Color3.fromRGB(255, 255, 255)
+	PrefixL.TextColor3 = Color3.fromRGB(73, 107, 193)
 	PrefixL.TextSize = 19.000
 	PrefixL.TextStrokeTransparency = 0.500
 	PrefixL.TextXAlignment = Enum.TextXAlignment.Left
@@ -622,7 +622,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 	local TextLabel = Instance.new("TextLabel")
 
 	Frame.Parent = CommandsSU
-	Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Frame.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	Frame.BackgroundTransparency = 0.350
 	Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Frame.BorderSizePixel = 2
@@ -635,11 +635,11 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 	UIGradient.Parent = Frame
 
 	TextLabel.Parent = Frame
-	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 	TextLabel.BackgroundTransparency = 1.000
 	TextLabel.Size = UDim2.new(0, 200, 0, 50)
 	TextLabel.Font = Enum.Font.SourceSansBold
-	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextColor3 = Color3.fromRGB(73, 107, 193)
 	TextLabel.TextSize = 20.000
 	TextLabel.TextStrokeTransparency = 0.500
 	TextLabel.TextWrapped = true
@@ -695,7 +695,7 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 
 		Commandf.Name = "Command"
 		Commandf.Parent = CommandList
-		Commandf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Commandf.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		Commandf.Size = UDim2.new(0, 100, 0, 100)
 
 		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(86, 87, 85)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(78, 77, 73))}
@@ -704,13 +704,13 @@ local AddCommand, ChangeAdminPerms, HandleMessage do
 
 		Label.Name = "Label"
 		Label.Parent = Commandf
-		Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Label.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		Label.BackgroundTransparency = 1.000
 		Label.Position = UDim2.new(0.0270000007, 1, 0, 0)
 		Label.Size = UDim2.new(0, 148, 0, 20)
 		Label.Font = Enum.Font.SourceSansBold
 		Label.Text = Command
-		Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Label.TextColor3 = Color3.fromRGB(73, 107, 193)
 		Label.TextSize = 15.000
 		Label.TextWrapped = true
 		Label.TextXAlignment = Enum.TextXAlignment.Left
@@ -2157,7 +2157,7 @@ Util:Button("View Data",function()
 
 		Main.Name = "Main"
 		Main.Parent = CommandsSU
-		Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Main.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		Main.BackgroundTransparency = 0.350
 		Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Main.BorderSizePixel = 2
@@ -2170,7 +2170,7 @@ Util:Button("View Data",function()
 
 		Top.Name = "Top"
 		Top.Parent = Main
-		Top.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Top.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		Top.BackgroundTransparency = 0.650
 		Top.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Top.BorderSizePixel = 2
@@ -2186,7 +2186,7 @@ Util:Button("View Data",function()
 		Min.Font = Enum.Font.SourceSans
 		Min.LineHeight = 1.150
 		Min.Text = "-"
-		Min.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Min.TextColor3 = Color3.fromRGB(73, 107, 193)
 		Min.TextSize = 39.000
 
 		UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(38, 38, 38)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 28, 28))}
@@ -2195,7 +2195,7 @@ Util:Button("View Data",function()
 
 		Commands.Name = "Commands"
 		Commands.Parent = Top
-		Commands.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Commands.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		Commands.BackgroundTransparency = 1.000
 		Commands.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Commands.BorderSizePixel = 0
@@ -2203,14 +2203,14 @@ Util:Button("View Data",function()
 		Commands.Size = UDim2.new(0, 95, 0, 24)
 		Commands.Font = Enum.Font.SourceSansBold
 		Commands.Text = "Data Viewer"
-		Commands.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Commands.TextColor3 = Color3.fromRGB(73, 107, 193)
 		Commands.TextSize = 20.000
 		Commands.TextStrokeTransparency = 0.500
 		Commands.TextXAlignment = Enum.TextXAlignment.Left
 
 		Commands_2.Name = "Commands"
 		Commands_2.Parent = Top
-		Commands_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Commands_2.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		Commands_2.BackgroundTransparency = 1.000
 		Commands_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Commands_2.BorderSizePixel = 0
@@ -2218,20 +2218,20 @@ Util:Button("View Data",function()
 		Commands_2.Size = UDim2.new(0, 95, 0, 24)
 		Commands_2.Font = Enum.Font.SourceSansBold
 		Commands_2.Text = "Save Data"
-		Commands_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Commands_2.TextColor3 = Color3.fromRGB(73, 107, 193)
 		Commands_2.TextSize = 20.000
 		Commands_2.TextStrokeTransparency = 0.500
 		Commands_2.TextXAlignment = Enum.TextXAlignment.Left
 
 		Name.Name = "Name"
 		Name.Parent = Main
-		Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Name.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		Name.BackgroundTransparency = 1.000
 		Name.Position = UDim2.new(0.145945951, 0, 0.108870968, 0)
 		Name.Size = UDim2.new(0, 315, 0, 42)
 		Name.Font = Enum.Font.SourceSansBold
 		Name.Text = g.Name.."/"..g.DisplayName.."\n"..g.PlayerData.RoleplayName.Value
-		Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Name.TextColor3 = Color3.fromRGB(73, 107, 193)
 		Name.TextSize = 17.000
 		Name.TextStrokeTransparency = 0.500
 		Name.TextWrapped = true
@@ -2239,13 +2239,13 @@ Util:Button("View Data",function()
 
 		t.Name = "t"
 		t.Parent = Main
-		t.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		t.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		t.BackgroundTransparency = 1.000
 		t.Position = UDim2.new(0.0179730393, 0, 0, 63)
 		t.Size = UDim2.new(0, 354, 0, framesize.Y)
 		t.Font = Enum.Font.SourceSansBold
 		t.Text = "Cash: "..tostring(g.PlayerData.Currency.Value).." | ECurrency: "..tostring(g.PlayerData.ECurrency.Value).." | Aureus: "..tostring(g.PlayerData.PCurrency.Value).." | Karma: "..tostring(g.PlayerData.Karma.Value).." | Audio: "..(workspace.Buildings:FindFirstChild(g.Name) and workspace.Buildings[g.Name]:FindFirstChild("Jukebox") and workspace.Buildings[g.Name].Jukebox.Speaker.Sound.SoundId:gsub('rbxassetid://','') or '0').." | Play Time: "..tostring(g.PlayerData.PlayTime.Value).." | Job: "..g.Job.Value.." | Inventory: "..vts(g.PlayerData.Inventory.Value:split(",")).." | Bank: "..vts(g.PlayerData.Bank.Value:split(",")).." | Perms: "..vts(g.PlayerData.BInventory.Value:split(",")).." | Vehicles: "..vts(g.PlayerData.VInventory.Value:split(","))
-		t.TextColor3 = Color3.fromRGB(255, 255, 255)
+		t.TextColor3 = Color3.fromRGB(73, 107, 193)
 		t.TextSize = 16
 		t.TextStrokeTransparency = 0.500
 		t.TextWrapped = true
@@ -2253,7 +2253,7 @@ Util:Button("View Data",function()
 		t.TextYAlignment = Enum.TextYAlignment.Top
 
 		ImageLabel.Parent = Main
-		ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ImageLabel.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		ImageLabel.BackgroundTransparency = 1.000
 		ImageLabel.Position = UDim2.new(0.016216211, 0, 0.108870968, 0)
 		ImageLabel.Size = UDim2.new(0, 42, 0, 42)
@@ -2568,7 +2568,6 @@ local oldindex; oldindex = hookmetamethod(game,"__namecall",function(s,...)
 
     return oldindex(s,...)
 end)
-
 
 ---@diagnostic disable: undefined-global
 _G.outfits = {
@@ -6652,7 +6651,7 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
     end)
     
     Misctab.Button("asp#0116",function()
-        sendnotification("making almost nothing")
+        sendnotification("TAKING HIS FUCKING TIME DOING THIS")
     end)
     
     Misctab.Button("Alice",function()
@@ -6805,6 +6804,6 @@ else
     })
 end
 
-lib:Note("Cosmic Client v2 gui","Press Right Alt to open.")
+sendnotification("Ralt for v2 gui RCTRL for main")
 
 return "Beta"
