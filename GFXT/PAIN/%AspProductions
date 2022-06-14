@@ -2665,7 +2665,7 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
         TextLabelc.Size = UDim2.new(0, 186, 0, 23)
         TextLabelc.Font = Enum.Font.SourceSans
         TextLabelc.Text = "Your Prefix: "..var.prefix
-        TextLabelc.TextColor3 = Color3.fromRGB(255, 255, 255)
+        TextLabelc.TextColor3 = Color3.fromRGB(73, 107, 193)
         TextLabelc.TextSize = 32.000
 
         ScrollingFramec.Parent = Framec
@@ -2791,7 +2791,7 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
     Ammo.Parent = Client
     Ammo.Active = true
     Ammo.AnchorPoint = Vector2.new(0, 1)
-    Ammo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Ammo.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
     Ammo.BackgroundTransparency = 1.000
     Ammo.Position = UDim2.new(0, 70, 1, -110)
     Ammo.Size = UDim2.new(0, 160, 0, 30)
@@ -2805,14 +2805,14 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
     
     amt.Name = "amt"
     amt.Parent = Ammo
-    amt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    amt.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
     amt.BackgroundTransparency = 1.000
     amt.Position = UDim2.new(0, 0, 0, -2)
     amt.Size = UDim2.new(1, 0, 1, 0)
     amt.ZIndex = 13
     amt.Font = Enum.Font.SourceSansBold
     amt.Text = "28/150"
-    amt.TextColor3 = Color3.fromRGB(255, 255, 255)
+    amt.TextColor3 = Color3.fromRGB(73, 107, 193)
     amt.TextScaled = true
     amt.TextSize = 38.000
     amt.TextStrokeTransparency = 0.500
@@ -2821,13 +2821,13 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
     type.Name = "type"
     type.Parent = Ammo
     type.AnchorPoint = Vector2.new(0, 0.800000012)
-    type.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    type.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
     type.BackgroundTransparency = 1.000
     type.Size = UDim2.new(1, 0, 1, 0)
     type.ZIndex = 13
     type.Font = Enum.Font.SourceSans
     type.Text = "Rifle Ammo"
-    type.TextColor3 = Color3.fromRGB(255, 255, 255)
+    type.TextColor3 = Color3.fromRGB(73, 107, 193)
     type.TextSize = 18.000
     type.TextStrokeTransparency = 0.500
     type.TextWrapped = true
@@ -2835,7 +2835,7 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
     warn.Name = "warn"
     warn.Parent = Ammo
     warn.AnchorPoint = Vector2.new(0, 0.800000012)
-    warn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    warn.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
     warn.BackgroundTransparency = 1.000
     warn.Position = UDim2.new(0, 0, 0, -25)
     warn.Size = UDim2.new(1, 0, 1, 0)
@@ -2857,7 +2857,7 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
     Notifications.Name = "Notifications"
     Notifications.Parent = Note
     Notifications.AnchorPoint = Vector2.new(1, 0)
-    Notifications.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Notifications.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
     Notifications.Position = UDim2.new(0.169648349, -10, 0.985276103, -230)
     Notifications.Size = UDim2.new(0, 300, 0, 100)
     Notifications.BackgroundTransparency = 1
@@ -2886,18 +2886,18 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
     
     Name.Name = "Name"
     Name.Parent = MainFrame
-    Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Name.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
     Name.BackgroundTransparency = 1.000
     Name.Position = UDim2.new(0, 0, 0.0447761193, 0)
     Name.Size = UDim2.new(0, 200, 0, 22)
     Name.Font = Enum.Font.Gotham
     Name.Text = "Cosmic"
-    Name.TextColor3 = Color3.fromRGB(250, 250, 250)
+    Name.TextColor3 = Color3.fromRGB(73, 107, 193)
     Name.TextSize = 30.000
     
     Name_2.Name = "Name"
     Name_2.Parent = MainFrame
-    Name_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Name_2.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
     Name_2.BackgroundTransparency = 1.000
     Name_2.Position = UDim2.new(-0.00499999989, 0, 0.722858369, 0)
     Name_2.Size = UDim2.new(0, 200, 0, 40)
@@ -2932,20 +2932,20 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
 
     textName.Name = "textName"
     textName.Parent = Frame
-    textName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    textName.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
     textName.BackgroundTransparency = 1.000
     textName.BorderSizePixel = 0
     textName.Size = UDim2.new(1, 0, 0.5, 0)
     textName.ZIndex = 16
     textName.Font = Enum.Font.SourceSansBold
     textName.Text = "OnlyTwentyCharacters"
-    textName.TextColor3 = Color3.fromRGB(255, 255, 255)
+    textName.TextColor3 = Color3.fromRGB(73, 107, 193)
     textName.TextSize = 18.000
     textName.TextWrapped = true
 
     textMessage.Name = "textMessage"
     textMessage.Parent = Frame
-    textMessage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    textMessage.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
     textMessage.BackgroundTransparency = 1.000
     textMessage.BorderSizePixel = 0
     textMessage.Position = UDim2.new(0, 0, 0.5, 0)
